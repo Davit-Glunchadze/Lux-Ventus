@@ -7,3 +7,57 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+header {
+  max-width: 1272px;
+  margin: 37px auto 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*ჰედერის ნავიგაცია */
+.header-navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-navigation ul li {
+  padding: 7px 32px 7px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.header-navigation ul li a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.header-navigation ul li:hover {
+  border-radius: 40px;
+  background-color: #4ce0d7;
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*საძიებო ველი */
+.search-button {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  padding-bottom: 5px;
+}
+
+.search-button :hover {
+  background-color: #4ce0d7;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 25px;
+}
