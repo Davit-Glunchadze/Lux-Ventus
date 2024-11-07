@@ -6,4 +6,107 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  max-width: 1272px;
+  margin: 37px auto 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*ჰედერის ნავიგაცია */
+.header-navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-navigation ul li {
+  padding: 7px 32px 7px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.header-navigation ul li a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.header-navigation ul li:hover {
+  border-radius: 40px;
+  background-color: #4ce0d7;
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*საძიებო ველი */
+.search-button {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  padding-bottom: 5px;
+}
+
+.search-button :hover {
+  background-color: #4ce0d7;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.topics-section > h3{
+  justify-content: space-between;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 32px;
+  margin-left:300px;
+  margin-bottom: 48px;
+}
+.topic{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.topic-inner{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF; 
+  width: 204px;
+  height: 291px;
+  gap: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.topic-inner h4{
+  width: 129px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.topic-inner img{
+  width:88px;
+  height:88px; 
+}
+.topic-inner a{
+  color: black;
+  text-decoration: none;
+}
+.button:hover{
+  border-radius: 40px;
+  background-color: #4ce0d7;
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
 }
