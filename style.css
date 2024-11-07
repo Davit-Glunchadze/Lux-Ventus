@@ -128,12 +128,15 @@ header {
   font-weight:400px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 19px;
+  max-width: 490px;
 }
 .p1{
   color: white;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  margin-bottom: 22px;
 }
 .inner-main h1{
   color:white;
